@@ -1,0 +1,32 @@
+.tableWrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 224px;
+}
+table th, table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px 40px;
+    font-size: larger;
+    color: blue;
+    background-color: aquamarine;
+}
+table th {
+    color: black;
+}
+table {
+    border-collapse: collapse;
+}
+.edit {
+    background-color: blue;
+}
+.delete {
+    background-color: red;
+}
+.add {
+    background-color: yellow;
+}
